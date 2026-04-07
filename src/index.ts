@@ -35,6 +35,3 @@ app.event("channel_created", async ({ event, client }) => {
 });
 
 app.start(3000);
-app.client.chat.postMessage({
-  channel: people[0],
-});
